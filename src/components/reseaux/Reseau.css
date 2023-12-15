@@ -1,0 +1,21 @@
+.reseaux {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.reseaux img {
+  padding-right: 5px;
+}
+
+.linkedin {
+  margin: 10px;
+}
+
+.github {
+  margin: 10px;
+}
+
+.mail {
+  margin: 10px;
+}

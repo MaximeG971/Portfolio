@@ -3,13 +3,17 @@ import "./Reseau.css";
 function Reseau() {
   return (
     <div className="reseaux">
-      <a href="https://linkedin.com/in/maxime-gael">
+      <a
+        href="https://linkedin.com/in/maxime-gael"
+        rel="noreferrer"
+        target="_blank"
+      >
         <button type="button" className="linkedin">
           <img src="/logo-linkedin.png" width={30} height={30} />
           Linkedin
         </button>
       </a>
-      <a href="https://github.com/MaximeG971">
+      <a href="https://github.com/MaximeG971" rel="noreferrer" target="_blank">
         <button type="button" className="github">
           <img src="/logo-github.png" width={30} height={30} />
           Github

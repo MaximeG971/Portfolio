@@ -5,13 +5,21 @@ function Contact() {
     <div className="contact">
       <h1>Contact</h1>
       <div className="liens-contact">
-        <a href="https://linkedin.com/in/maxime-gael">
+        <a
+          href="https://linkedin.com/in/maxime-gael"
+          rel="noreferrer"
+          target="_blank"
+        >
           <button type="button" className="contact-linkedin">
             <img src="/logo-linkedin.png" width={30} height={30} />
             Linkedin
           </button>
         </a>
-        <a href="https://github.com/MaximeG971">
+        <a
+          href="https://github.com/MaximeG971"
+          rel="noreferrer"
+          target="_blank"
+        >
           <button type="button" className="contact-github">
             <img src="/logo-github.png" width={30} height={30} />
             Github

@@ -4,18 +4,25 @@
   justify-content: center;
 }
 
+.reseaux button {
+  cursor: pointer;
+}
+
 .reseaux img {
   padding-right: 5px;
 }
 
 .linkedin {
   margin: 10px;
+  background: #333333;
 }
 
 .github {
   margin: 10px;
+  background: #333333;
 }
 
 .mail {
   margin: 10px;
+  background: #333333;
 }

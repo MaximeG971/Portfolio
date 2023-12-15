@@ -1,8 +1,6 @@
 .skills {
   text-align: center;
-  width: 100%; /* Utiliser la largeur totale disponible */
-  max-width: 800px; /* Ajuster la largeur maximale selon vos besoins */
-  margin: 0 auto; /* Centrer le contenu horizontalement */
+  width: 100%;
 }
 
 .skills-categories {
@@ -13,17 +11,15 @@
 .skills-categories > div {
   display: inline-block;
   margin: 0 10px;
-  width: 100%; /* Utiliser la largeur totale disponible */
-  box-sizing: border-box; /* Inclure les bordures et les rembourrages dans la largeur totale */
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* Styliser les titres */
 .skills h1,
 h2 {
   text-align: center;
 }
 
-/* Ajouter un espacement en bas pour les paragraphes de compétences */
 .skills-categories p {
   margin-bottom: 0;
 }
@@ -32,26 +28,26 @@ h2 {
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
-  width: 20%;
+  background: #333333;
 }
 
 .frontend {
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
-  width: 20%;
+  background: #333333;
 }
 
 .backend {
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
-  width: 20%;
+  background: #333333;
 }
 
 .other {
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
-  width: 20%;
+  background: #333333;
 }

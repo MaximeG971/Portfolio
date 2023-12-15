@@ -1,6 +1,7 @@
 body {
-  background: linear-gradient(to bottom, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  background: #1f1f1f;
   background-attachment: fixed;
+  color: white;
 }
 .div-principale h1,
 h2,

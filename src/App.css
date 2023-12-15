@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to bottom, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  background-attachment: fixed;
+}
+.div-principale h1,
+h2,
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-presentation {
+  height: 100vh;
+}
+
+.skills-container {
+  height: 50vh;
+}
+
+.projets-container {
+  height: 50vh;
+}
+
+.contact-container {
+  height: 50vh;
+}

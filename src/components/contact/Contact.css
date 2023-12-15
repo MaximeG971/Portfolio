@@ -1,0 +1,26 @@
+.contact h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.liens-contact {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contact img {
+  padding-right: 5px;
+}
+
+.contact-mail {
+  margin: 10px;
+}
+
+.contact-linkedin {
+  margin: 10px;
+}
+
+.contact-github {
+  margin: 10px;
+}

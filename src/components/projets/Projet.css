@@ -1,0 +1,45 @@
+.projets {
+  text-align: center;
+  width: 100%; /* Utiliser la largeur totale disponible */
+  max-width: 800px; /* Ajuster la largeur maximale selon vos besoins */
+  margin: 0 auto; /* Centrer le contenu horizontalement */
+}
+
+.liste-projets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.liste-projets > div {
+  display: inline-block;
+  margin: 0 10px;
+  width: 100%; /* Utiliser la largeur totale disponible */
+  box-sizing: border-box; /* Inclure les bordures et les rembourrages dans la largeur totale */
+}
+
+.projets h1,
+h2 {
+  text-align: center;
+}
+
+.liste-projets p {
+  margin-bottom: 0;
+}
+
+.projet-1 {
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.projet-2 {
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.liste-projets button {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}

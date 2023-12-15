@@ -1,10 +1,24 @@
+import "./Nav.css";
+
 function Nav() {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
-        <li>Skills</li>
-        <li>Projets</li>
-        <li>Contact</li>
+        <li>
+          <a href="#presentation">Présentation</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projets">Projets</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#mon-cv">Mon CV</a>
+        </li>
       </ul>
     </nav>
   );

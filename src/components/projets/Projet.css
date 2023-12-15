@@ -22,7 +22,7 @@ h2 {
   text-align: center;
 }
 
-.liste-projets p {
+.liste-projets h3 {
   margin-bottom: 0;
 }
 
@@ -40,11 +40,10 @@ h2 {
   background: #333333;
 }
 
-.liste-projets button {
+.projets button {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
+  border-radius: 5px;
   background: #999999;
-  outline: none;
-  box-shadow: none;
 }

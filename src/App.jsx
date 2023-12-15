@@ -4,12 +4,13 @@ import Reseau from "./components/reseaux/Reseau";
 import Skills from "./components/skills/Skills";
 import Projets from "./components/projets/Projets";
 import Contact from "./components/contact/Contact";
+import Cv from "./components/CV/Cv";
 
 function App() {
   return (
     <div className="div-principale">
-      <div className="page-presentation">
-        <div className="navbar">
+      <div className="page-presentation" id="presentation">
+        <div className="navbar-container">
           <Nav />
         </div>
         <h1>Maxime GAEL</h1>
@@ -24,14 +25,17 @@ function App() {
           <Reseau />
         </div>
       </div>
-      <div className="skills-container">
+      <div className="skills-container" id="skills">
         <Skills />
       </div>
-      <div className="projets-container">
+      <div className="projets-container" id="projets">
         <Projets />
       </div>
-      <div className="contact-container">
+      <div className="contact-container" id="contact">
         <Contact />
+      </div>
+      <div className="cv-container" id="mon-cv">
+        <Cv />
       </div>
     </div>
   );

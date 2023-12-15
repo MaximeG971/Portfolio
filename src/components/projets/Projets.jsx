@@ -7,12 +7,12 @@ function Projets() {
       <div className="liste-projets">
         <div className="projet-1">
           <h2>Todo List</h2>
-          <p>Description</p>
+          <h3>Description</h3>
           <button>Javascript</button>
         </div>
         <div className="projet-2">
           <h2>Capteam America</h2>
-          <p>Description</p>
+          <h3>Description</h3>
           <button>React</button>
           <button>MySQL</button>
         </div>

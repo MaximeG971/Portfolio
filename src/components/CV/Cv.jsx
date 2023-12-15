@@ -1,14 +1,16 @@
-import React from "react";
+import "./Cv.css";
 
 function Cv() {
   return (
-    <div>
-      <h3>Mon CV</h3>
-      <a href="/CV-Dev-Alternance.pdf" download>
-        <button type="button" className="CV">
-          Télécharger le CV
-        </button>
-      </a>
+    <div className="cv">
+      <h1>Mon CV</h1>
+      <div className="mon-cv">
+        <a href="/CV-Dev-Alternance.pdf" download>
+          <button type="button" className="CV">
+            Télécharger le CV
+          </button>
+        </a>
+      </div>
     </div>
   );
 }

@@ -3,26 +3,54 @@ body {
   background-attachment: fixed;
   color: white;
 }
-.div-principale h1,
-h2,
-p {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
+
+/* Rubrique présentation */
 
 .page-presentation {
   height: 100vh;
 }
 
+.page-presentation h1 {
+  padding-top: 10%;
+}
+
+.page-presentation p {
+  padding-top: 5%;
+}
+
+.liens-reseaux {
+  padding-top: 5%;
+}
+
+.div-principale h1,
+h2,
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Rubrique skills */
+
 .skills-container {
   height: 50vh;
 }
+
+/* Rubrique projet */
 
 .projets-container {
   height: 50vh;
 }
 
+/* Rubrique contact */
+
 .contact-container {
   height: 50vh;
+}
+
+/* Rubrique CV */
+
+.cv-container {
+  height: 25vh;
 }

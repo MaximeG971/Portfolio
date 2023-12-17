@@ -3,6 +3,7 @@
   justify-content: center;
   color: var(--titre-color);
   font-family: var(--font-titres);
+  margin-top: 20%;
 }
 
 .liens-contact {

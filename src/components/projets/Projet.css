@@ -60,3 +60,19 @@ h2 {
   color: var(--soustitre-color);
   font-family: var(--font-textes);
 }
+
+.todo-lien {
+  cursor: pointer;
+}
+
+.todo-lien:hover {
+  background: var(--boutons-hover);
+}
+
+.capteam-lien {
+  cursor: pointer;
+}
+
+.capteam-lien:hover {
+  background: var(--boutons-hover);
+}

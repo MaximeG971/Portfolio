@@ -18,36 +18,42 @@
 .skills h1,
 h2 {
   text-align: center;
+  color: var(--titre-color);
+  font-family: var(--font-titres);
 }
 
 .skills-categories p {
   margin-bottom: 0;
+  color: var(--soustitre-color);
+  font-family: var(--font-textes);
 }
 
 .design {
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
-  background: #333333;
+  background: var(--cases-bg);
+  border: var(--border-color);
 }
 
 .frontend {
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
-  background: #333333;
+  background: var(--cases-bg);
+  border: var(--border-color);
 }
 
 .backend {
-  border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
-  background: #333333;
+  background: var(--cases-bg);
+  border: var(--border-color);
 }
 
 .other {
-  border: 1px black solid;
+  border: var(--border-color);
   border-radius: 10px;
   padding: 5px;
-  background: #333333;
+  background: var(--cases-bg);
 }

@@ -21,7 +21,7 @@ html {
 }
 
 .navbar a {
-  color: white;
+  color: var(--titre-color);
   text-decoration: none;
 }
 

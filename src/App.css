@@ -1,7 +1,17 @@
+:root {
+  --cases-bg: #f6eee7;
+  --boutons-bg: #f0e4d9;
+  --boutons-hover: #e4cdb7;
+  --border-color: 1px solid #cea37e;
+  --titre-color: #3e332e;
+  --soustitre-color: #815e46;
+  --font-titres: "Rum Raisin", sans-serif;
+  --font-textes: "Calistoga", serif;
+}
+
 body {
-  background: #1f1f1f;
+  background: #fefdfc;
   background-attachment: fixed;
-  color: white;
 }
 
 /* Rubrique présentation */
@@ -12,10 +22,19 @@ body {
 
 .page-presentation h1 {
   padding-top: 10%;
+  color: var(--titre-color);
+  font-family: var(--font-titres);
+}
+
+.page-presentation h2 {
+  color: var(--titre-color);
+  font-family: var(--font-titres);
 }
 
 .page-presentation p {
   padding-top: 5%;
+  color: var(--soustitre-color);
+  font-family: var(--font-textes);
 }
 
 .liens-reseaux {

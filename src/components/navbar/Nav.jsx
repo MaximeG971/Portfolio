@@ -16,9 +16,6 @@ function Nav() {
         <li>
           <a href="#contact">Contact</a>
         </li>
-        <li>
-          <a href="#mon-cv">Mon CV</a>
-        </li>
       </ul>
     </nav>
   );

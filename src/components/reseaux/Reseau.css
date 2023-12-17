@@ -6,23 +6,17 @@
 
 .reseaux button {
   cursor: pointer;
+  font-family: var(--font-textes);
+  background: var(--boutons-bg);
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.reseaux button:hover {
+  background: var(--boutons-hover);
 }
 
 .reseaux img {
   padding-right: 5px;
-}
-
-.linkedin {
-  margin: 10px;
-  background: #333333;
-}
-
-.github {
-  margin: 10px;
-  background: #333333;
-}
-
-.mail {
-  margin: 10px;
-  background: #333333;
 }

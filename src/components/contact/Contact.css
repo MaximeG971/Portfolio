@@ -1,6 +1,8 @@
 .contact h1 {
   display: flex;
   justify-content: center;
+  color: var(--titre-color);
+  font-family: var(--font-titres);
 }
 
 .liens-contact {
@@ -15,19 +17,30 @@
 
 .contact-mail {
   margin: 10px;
-  background: #333333;
+  background: var(--boutons-bg);
+  border: none;
+  border-radius: 5px;
 }
 
 .contact-linkedin {
   margin: 10px;
-  background: #333333;
+  background: var(--boutons-bg);
+  border: none;
+  border-radius: 5px;
 }
 
 .contact-github {
   margin: 10px;
-  background: #333333;
+  background: var(--boutons-bg);
+  border: none;
+  border-radius: 5px;
 }
 
 .contact button {
   cursor: pointer;
+  color: var(--soustitre-color);
+}
+
+.contact button:hover {
+  background: var(--boutons-hover);
 }

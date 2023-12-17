@@ -5,7 +5,20 @@
   margin: 0 auto;
 }
 
+.cv h1 {
+  color: var(--titre-color);
+  font-family: var(--font-titres);
+}
+
 .cv button {
   cursor: pointer;
-  background: #666666;
+  border-radius: 5px;
+  background: var(--boutons-bg);
+  border: var(--border-color);
+  color: var(--soustitre-color);
+  font-family: var(--font-textes);
+}
+
+.cv button:hover {
+  background: var(--boutons-hover);
 }

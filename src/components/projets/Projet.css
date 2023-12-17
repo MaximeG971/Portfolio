@@ -1,8 +1,19 @@
 .projets {
   text-align: center;
-  width: 100%; /* Utiliser la largeur totale disponible */
-  max-width: 800px; /* Ajuster la largeur maximale selon vos besoins */
-  margin: 0 auto; /* Centrer le contenu horizontalement */
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projets h1 {
+  margin-bottom: 10%;
+}
+
+.projets h1,
+h2 {
+  text-align: center;
+  color: var(--titre-color);
+  font-family: var(--font-titres);
 }
 
 .liste-projets {
@@ -13,16 +24,11 @@
 .liste-projets > div {
   display: inline-block;
   margin: 0 10px;
-  width: 100%; /* Utiliser la largeur totale disponible */
-  box-sizing: border-box; /* Inclure les bordures et les rembourrages dans la largeur totale */
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.projets h1,
-h2 {
-  text-align: center;
-  color: var(--titre-color);
-  font-family: var(--font-titres);
-}
+/* CARTES PROJETS */
 
 .liste-projets h3 {
   margin-bottom: 0;

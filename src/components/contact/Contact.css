@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.liens-contact button {
+  font-family: var(--font-textes);
+}
+
 .contact img {
   padding-right: 5px;
 }

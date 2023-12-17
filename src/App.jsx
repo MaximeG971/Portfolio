@@ -5,6 +5,7 @@ import Skills from "./components/skills/Skills";
 import Projets from "./components/projets/Projets";
 import Contact from "./components/contact/Contact";
 import Cv from "./components/CV/Cv";
+import "../public/photo-portfolio.jpg";
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
           les skills utilisés ainsi que les différentes manières de me
           contacter.
         </p>
+        <img
+          src="../public/photo-portfolio.jpg"
+          alt="photo Maxime"
+          className="photo-portfolio"
+        />
         <div className="liens-reseaux">
           <Reseau />
         </div>

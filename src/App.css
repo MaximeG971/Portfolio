@@ -37,6 +37,15 @@ body {
   font-family: var(--font-textes);
 }
 
+.photo-portfolio {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .liens-reseaux {
   padding-top: 5%;
 }

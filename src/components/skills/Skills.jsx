@@ -7,20 +7,55 @@ function Skills() {
       <div className="skills-categories">
         <div className="design">
           <h2>Design</h2>
-          <p>Figma</p>
+          <div className="logo-design">
+            <img
+              src="/logo-figma.png"
+              alt="logo figma"
+              width={30}
+              height={30}
+            />
+            <p>Figma</p>
+          </div>
         </div>
         <div className="frontend">
           <h2>Front-End</h2>
-          <p>React</p>
+          <div className="logo-frontend">
+            <img
+              src="/logo-react.png"
+              alt="logo react"
+              width={30}
+              height={30}
+            />
+            <p>React</p>
+          </div>
         </div>
         <div className="backend">
           <h2>Back-End</h2>
-          <p>MySQL</p>
+          <div className="logo-backend">
+            <img
+              src="/logo-mysql.png"
+              alt="logo mysql"
+              width={30}
+              height={30}
+            />
+            <p>MySQL</p>
+          </div>
         </div>
         <div className="other">
           <h2>Other</h2>
-          <p>Git & Github</p>
-          <p>node.js</p>
+          <div className="other-github">
+            <img
+              src="/logo-github.png"
+              alt="logo github"
+              width={30}
+              height={30}
+            />
+            <p>Git & Github</p>
+          </div>
+          <div className="other-node">
+            <img src="/logo-node.png" alt="logo node" width={30} height={30} />
+            <p>node.js</p>
+          </div>
         </div>
       </div>
     </div>

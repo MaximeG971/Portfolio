@@ -1,10 +1,10 @@
-import "./Contact.css";
+import "./Footer.css";
 
-function Contact() {
+function Footer() {
   return (
-    <div className="contact">
-      <h1>Où me retrouver ?</h1>
-      <div className="liens-contact">
+    <div className="footer">
+      <div className="copyright">© Maxime GAEL</div>
+      <div>
         <a
           href="https://linkedin.com/in/maxime-gael"
           rel="noreferrer"
@@ -12,7 +12,6 @@ function Contact() {
         >
           <button type="button" className="contact-linkedin">
             <img src="/logo-linkedin.png" width={30} height={30} />
-            Linkedin
           </button>
         </a>
         <a
@@ -22,13 +21,11 @@ function Contact() {
         >
           <button type="button" className="contact-github">
             <img src="/logo-github.png" width={30} height={30} />
-            Github
           </button>
         </a>
         <a href="mailto:maximejordan.gael@gmail.com">
           <button type="button" className="contact-mail">
             <img src="/logo-mail.png" width={30} height={30} />
-            maximejordan.gael@gmail.com
           </button>
         </a>
       </div>
@@ -36,4 +33,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Footer;

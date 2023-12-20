@@ -5,6 +5,9 @@ function Cv() {
     <div className="cv">
       <h1>Mon CV</h1>
       <div className="mon-cv">
+        <div className="img-cv">
+          <img src="/cv.png" alt="aperçu de mon cv" width={200} height={400} />
+        </div>
         <a href="/CV-Dev-Alternance.pdf" download>
           <button type="button" className="CV">
             Télécharger le CV

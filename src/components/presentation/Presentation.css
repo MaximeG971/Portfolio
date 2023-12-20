@@ -1,0 +1,87 @@
+.page-presentation {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container-elements {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 100%;
+}
+
+.presentation-maxime {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  gap: 10px;
+}
+
+.page-presentation h1 {
+  padding-top: 10%;
+  color: var(--titre-color);
+  font-family: var(--font-titres);
+  font-size: 3rem;
+}
+
+.page-presentation p {
+  padding-top: 5%;
+  color: var(--soustitre-color);
+  font-family: var(--font-textes);
+}
+
+.photo-portfolio {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTACT */
+
+.reseaux {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.reseaux button {
+  font-family: var(--font-textes);
+}
+
+.reseaux img {
+  padding-right: 5px;
+}
+
+.mail {
+  margin: 10px;
+  background: var(--boutons-bg);
+  border: var(--border-color);
+  border-radius: 5px;
+}
+
+.linkedin {
+  margin: 10px;
+  background: var(--boutons-bg);
+  border: var(--border-color);
+  border-radius: 5px;
+}
+
+.github {
+  margin: 10px;
+  background: var(--boutons-bg);
+  border: var(--border-color);
+  border-radius: 5px;
+}
+
+.reseaux button {
+  cursor: pointer;
+  color: var(--soustitre-color);
+}
+
+.reseaux button:hover {
+  background: var(--boutons-hover);
+}

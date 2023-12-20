@@ -1,50 +1,22 @@
 :root {
-  --cases-bg: #f6eee7;
-  --boutons-bg: #f0e4d9;
+  --background: #a07553;
+  --cases-bg: #a07553;
+  --boutons-bg: #a07553;
   --boutons-hover: #e4cdb7;
   --border-color: 1px solid #cea37e;
-  --titre-color: #3e332e;
-  --soustitre-color: #815e46;
+  --titre-color: #fcf9f6;
+  --soustitre-color: #fefdfc;
   --font-titres: "Rum Raisin", sans-serif;
   --font-textes: "Calistoga", serif;
+  --footer-bg: #815e46;
 }
 
 body {
-  background: #fefdfc;
+  background: var(--background);
   background-attachment: fixed;
 }
 
 /* Rubrique présentation */
-
-.page-presentation {
-  height: 100vh;
-}
-
-.page-presentation h1 {
-  padding-top: 10%;
-  color: var(--titre-color);
-  font-family: var(--font-titres);
-}
-
-.page-presentation h2 {
-  color: var(--titre-color);
-  font-family: var(--font-titres);
-}
-
-.page-presentation p {
-  padding-top: 5%;
-  color: var(--soustitre-color);
-  font-family: var(--font-textes);
-}
-
-.photo-portfolio {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .liens-reseaux {
   padding-top: 5%;
@@ -74,11 +46,18 @@ p {
 /* Rubrique contact */
 
 .contact-container {
-  height: 50vh;
+  height: 25vh;
 }
 
 /* Rubrique CV */
 
 .cv-container {
-  height: 25vh;
+  height: 50vh;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 10vh;
+  height: 10vh;
 }

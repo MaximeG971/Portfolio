@@ -22,3 +22,8 @@
 .cv button:hover {
   background: var(--boutons-hover);
 }
+
+.img-cv img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

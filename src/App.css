@@ -1,3 +1,5 @@
+/* DESKTOP */
+
 :root {
   --background: #a07553;
   --cases-bg: #a07553;
@@ -15,6 +17,11 @@ body {
   background: var(--background);
   background-attachment: fixed;
 }
+
+/* .div-principale {
+  display: flex;
+  flex-direction: column;
+} */
 
 /* Rubrique présentation */
 

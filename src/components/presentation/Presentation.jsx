@@ -44,7 +44,7 @@ function Presentation() {
         </div>
         <div className="container-photo">
           <img
-            src="../public/photo-portfolio.jpg"
+            src="/photo-portfolio.jpg"
             alt="photo Maxime"
             className="photo-portfolio"
           />

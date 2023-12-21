@@ -1,3 +1,17 @@
+/* VERSION MOBILE */
+
+@media screen and (max-width: 768px) {
+  .liste-projets {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+/* DESKTOP */
+
 .projets {
   text-align: center;
   width: 100%;

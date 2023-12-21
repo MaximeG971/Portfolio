@@ -1,11 +1,17 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 10px;
-  background: var(--footer-bg);
-  bottom: 0;
-  position: fixed;
-  padding: 10px;
-  margin: 0 auto;
+  margin-top: 150px;
+  padding-top: 20px;
+  border-top: var(--border-color);
+}
+
+.footer button {
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background: var(--boutons-hover);
 }

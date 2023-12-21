@@ -6,7 +6,7 @@ function Cv() {
       <h1>Mon CV</h1>
       <div className="mon-cv">
         <div className="img-cv">
-          <img src="/cv.png" alt="aperçu de mon cv" width={200} height={400} />
+          <img src="/cv.png" alt="aperçu de mon cv" width={300} height={450} />
         </div>
         <a href="/CV-Dev-Alternance.pdf" download>
           <button type="button" className="CV">

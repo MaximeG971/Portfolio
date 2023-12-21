@@ -41,13 +41,13 @@ function Presentation() {
               </button>
             </a>
           </div>
-          <div className="container-photo">
-            <img
-              src="../public/photo-portfolio.jpg"
-              alt="photo Maxime"
-              className="photo-portfolio"
-            />
-          </div>
+        </div>
+        <div className="container-photo">
+          <img
+            src="../public/photo-portfolio.jpg"
+            alt="photo Maxime"
+            className="photo-portfolio"
+          />
         </div>
       </div>
     </div>

@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   padding-left: 30px;
-  gap: 10px;
 }
 
 .page-presentation h1 {
@@ -31,13 +30,21 @@
   font-family: var(--font-textes);
 }
 
+/* PHOTO */
+
+.container-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .photo-portfolio {
   width: 200px;
   height: 200px;
   border-radius: 10px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 /* CONTACT */

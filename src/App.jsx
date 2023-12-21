@@ -29,9 +29,9 @@ function App() {
       <div className="cv-container" id="mon-cv">
         <Cv />
       </div>
-      <div className="footer">
+      <footer className="footer-container">
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 }

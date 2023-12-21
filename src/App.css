@@ -1,3 +1,22 @@
+/* Styles pour les appareils mobiles */
+
+@media only screen and (max-width: 780px) {
+  .projets-container {
+    margin-top: 100px;
+  }
+  .contact-container {
+    margin-top: 80vh;
+  }
+
+  .cv-container {
+    margin-bottom: 10vh;
+    padding-bottom: 5vh;
+  }
+  /* .footer-container {
+    display: none;
+  } */
+}
+
 /* DESKTOP */
 
 :root {
@@ -17,11 +36,6 @@ body {
   background: var(--background);
   background-attachment: fixed;
 }
-
-/* .div-principale {
-  display: flex;
-  flex-direction: column;
-} */
 
 /* Rubrique présentation */
 

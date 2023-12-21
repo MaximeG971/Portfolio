@@ -1,3 +1,11 @@
+/* @media only screen and (max-width: 780px) {
+  .footer {
+    
+  }
+} */
+
+/* DESKTOP */
+
 .footer {
   display: flex;
   flex-direction: column;

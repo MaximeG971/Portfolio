@@ -1,11 +1,18 @@
 /* VERSION MOBILE */
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container-photo {
     overflow: hidden;
   }
   .reseaux {
     margin-left: 35%;
+  }
+  .presentation-maxime h1 {
+    font-family: "Courier New", Courier, monospace;
+  }
+  .presentation-maxime p {
+    font-size: 0.5rem;
+    margin-right: 15px;
   }
 }
 
@@ -41,6 +48,8 @@
   padding-top: 5%;
   color: var(--soustitre-color);
   font-family: var(--font-textes);
+  font-size: 1.5rem;
+  margin-top: 0px;
 }
 
 /* PHOTO */
@@ -52,12 +61,9 @@
 }
 
 .photo-portfolio {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 /* CONTACT */

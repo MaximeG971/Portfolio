@@ -1,6 +1,6 @@
 /* Styles pour les appareils mobiles */
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   .projets-container {
     margin-top: 100px;
   }
@@ -9,13 +9,12 @@
   }
 
   .cv-container {
-    /* margin-bottom: 10vh;
-    padding-bottom: 5vh; */
     margin-top: 80vh;
   }
-  /* .footer-container {
-    display: none;
-  } */
+
+  .presentation {
+    font-size: 1rem;
+  }
 }
 
 /* DESKTOP */

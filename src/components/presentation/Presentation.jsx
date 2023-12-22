@@ -1,17 +1,20 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./Presentation.css";
 
 function Presentation() {
   return (
     <div className="page-presentation" id="presentation">
       <div className="container-elements">
-        <div className="presentation-maxime">
+        <div className="presentation-maxime ">
           <h1>Maxime GAEL</h1>
           <p>Développeur Web</p>
           <p>
             Bienvenue sur mon portfolio, vous pourrez y retrouver mes différents
             projets, <br />
             les skills utilisés ainsi que les différentes manières de me
-            contacter.
+            contacter. <br />
+            Je suis actuellement à la recherche d'un contrat d'alternance pour
+            préparer le titre <br /> "Concepteur Développeur d'Application"
           </p>
           <div className="reseaux">
             <a

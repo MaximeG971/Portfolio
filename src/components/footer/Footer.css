@@ -1,9 +1,3 @@
-/* @media only screen and (max-width: 780px) {
-  .footer {
-    
-  }
-} */
-
 /* DESKTOP */
 
 .footer {
@@ -18,6 +12,9 @@
 
 .footer button {
   cursor: pointer;
+  background: var(--boutons-bg);
+  border: none;
+  margin-top: 10px;
 }
 
 .footer button:hover {

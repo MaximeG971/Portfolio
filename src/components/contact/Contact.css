@@ -35,21 +35,21 @@
 .contact-mail {
   margin: 10px;
   background: var(--boutons-bg);
-  border: none;
+  border: var(--border-color);
   border-radius: 5px;
 }
 
 .contact-linkedin {
   margin: 10px;
   background: var(--boutons-bg);
-  border: none;
+  border: var(--border-color);
   border-radius: 5px;
 }
 
 .contact-github {
   margin: 10px;
   background: var(--boutons-bg);
-  border: none;
+  border: var(--border-color);
   border-radius: 5px;
 }
 

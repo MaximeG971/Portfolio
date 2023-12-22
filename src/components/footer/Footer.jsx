@@ -10,7 +10,7 @@ function Footer() {
           rel="noreferrer"
           target="_blank"
         >
-          <button type="button" className="contact-linkedin">
+          <button type="button" className="footer-linkedin">
             <img src="/logo-linkedin.png" width={30} height={30} />
           </button>
         </a>
@@ -19,12 +19,12 @@ function Footer() {
           rel="noreferrer"
           target="_blank"
         >
-          <button type="button" className="contact-github">
+          <button type="button" className="footer-github">
             <img src="/logo-github.png" width={30} height={30} />
           </button>
         </a>
         <a href="mailto:maximejordan.gael@gmail.com">
-          <button type="button" className="contact-mail">
+          <button type="button" className="footer-mail">
             <img src="/logo-mail.png" width={30} height={30} />
           </button>
         </a>

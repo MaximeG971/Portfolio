@@ -23,11 +23,11 @@ function App() {
       <div className="projets-container" id="projets">
         <Projets />
       </div>
-      <div className="contact-container" id="contact">
-        <Contact />
-      </div>
-      <div className="cv-container" id="mon-cv">
+      <div className="cv-container" id="contact">
         <Cv />
+      </div>
+      <div className="contact-container">
+        <Contact />
       </div>
       <footer className="footer-container">
         <Footer />

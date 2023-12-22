@@ -4,7 +4,6 @@
   .liens-contact {
     display: flex;
     flex-wrap: wrap;
-
     width: 90%;
   }
 }

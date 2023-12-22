@@ -8,7 +8,7 @@ function Presentation() {
         <div className="presentation-maxime ">
           <h1>Maxime GAEL</h1>
           <p>Développeur Web</p>
-          <p>
+          <p className="texte-presentation">
             Bienvenue sur mon portfolio, vous pourrez y retrouver mes différents
             projets, <br />
             les skills utilisés ainsi que les différentes manières de me

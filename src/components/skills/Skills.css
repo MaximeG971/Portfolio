@@ -8,6 +8,8 @@
     width: 85%;
     gap: 20px;
     align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .design,
   .frontend {

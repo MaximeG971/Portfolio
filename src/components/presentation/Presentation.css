@@ -1,18 +1,30 @@
 /* VERSION MOBILE */
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+  .container-elements > .presentation-maxime {
+    position: absolute;
+    /* left: -8%; */
+    top: 5%;
+    margin-right: 10%;
+  }
+
   .container-photo {
-    overflow: hidden;
+    display: none !important;
   }
+
+  .photo-portfolio {
+    display: none;
+  }
+
   .reseaux {
-    margin-left: 35%;
+    justify-content: center;
   }
-  .presentation-maxime h1 {
-    font-family: "Courier New", Courier, monospace;
+
+  .page-presentation p {
+    font-size: 0.8rem !important;
   }
-  .presentation-maxime p {
-    font-size: 0.5rem;
-    margin-right: 15px;
+  .texte-presentation {
+    padding: 10px 10px;
   }
 }
 
@@ -58,6 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15%;
 }
 
 .photo-portfolio {

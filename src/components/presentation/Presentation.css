@@ -1,11 +1,21 @@
 /* VERSION MOBILE */
 
 @media screen and (max-width: 900px) {
+  .container-elements {
+    position: relative;
+    margin-top: -100%;
+    margin-right: 8%;
+  }
+
   .container-elements > .presentation-maxime {
     position: absolute;
-    /* left: -8%; */
-    top: 5%;
-    margin-right: 10%;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .container-photo {
@@ -100,6 +110,7 @@
   background: var(--boutons-bg);
   border: var(--border-color);
   border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .linkedin {
@@ -107,6 +118,7 @@
   background: var(--boutons-bg);
   border: var(--border-color);
   border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .github {
@@ -114,6 +126,7 @@
   background: var(--boutons-bg);
   border: var(--border-color);
   border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .reseaux button {

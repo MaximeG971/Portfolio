@@ -37,6 +37,7 @@
   background: var(--boutons-bg);
   border: var(--border-color);
   border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-linkedin {
@@ -44,6 +45,7 @@
   background: var(--boutons-bg);
   border: var(--border-color);
   border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-github {
@@ -51,6 +53,7 @@
   background: var(--boutons-bg);
   border: var(--border-color);
   border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact button {

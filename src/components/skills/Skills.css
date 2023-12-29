@@ -61,11 +61,11 @@ h2 {
 }
 
 .design {
-  border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
   background: var(--cases-bg);
   border: var(--border-color);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo-design {
@@ -79,11 +79,11 @@ h2 {
 }
 
 .frontend {
-  border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
   background: var(--cases-bg);
   border: var(--border-color);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo-frontend {
@@ -102,6 +102,7 @@ h2 {
   padding: 5px;
   background: var(--cases-bg);
   border: var(--border-color);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo-backend {
@@ -120,6 +121,7 @@ h2 {
   border-radius: 10px;
   padding: 5px;
   background: var(--cases-bg);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .other-github {

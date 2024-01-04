@@ -13,7 +13,7 @@ function Cv() {
             height={450}
           />
         </div>
-        <a href="/CV-Dev.pdf" download>
+        <a href="/CV_Dev.pdf" download>
           <button type="button" className="CV">
             Télécharger le CV
           </button>

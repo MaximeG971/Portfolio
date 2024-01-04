@@ -20,16 +20,24 @@
 /* DESKTOP */
 
 :root {
-  --background: #a07553;
-  --cases-bg: #a07553;
-  --boutons-bg: #a07553;
-  --boutons-hover: #e4cdb7;
-  --border-color: 1px solid #cea37e;
+  /* --background: #a07553; */
+  --background: #262626;
+  /* --cases-bg: #a07553; */
+  --cases-bg: #262626;
+  --boutons-bg: #373636;
+  --boutons-projets: #980a0a;
+  /* --boutons-bg: #a07553; */
+  --boutons-hover: #c1071e;
+  /* --boutons-hover: #e4cdb7; */
+  --border-color: 2px solid #780909;
+  /* --border-color: 1px solid #cea37e; */
   --titre-color: #fcf9f6;
-  --soustitre-color: #fefdfc;
+  /* --titre-color: #fcf9f6; */
+  --soustitre-color: #fcf9f6;
+  /* --soustitre-color: #fefdfc; */
   --font-titres: "Rum Raisin", sans-serif;
   --font-textes: "Calistoga", serif;
-  --footer-bg: #815e46;
+  /* --footer-bg: #815e46; */
 }
 
 body {

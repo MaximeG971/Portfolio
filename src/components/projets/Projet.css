@@ -57,7 +57,7 @@ h2 {
   border-radius: 10px;
   padding: 10px;
   background: var(--cases-bg);
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 7px 0px #780909;
 }
 
 .projet-2 {
@@ -65,7 +65,7 @@ h2 {
   border-radius: 10px;
   padding: 10px;
   background: var(--cases-bg);
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 7px 0px #780909;
 }
 
 .projets button {
@@ -73,7 +73,7 @@ h2 {
   margin-right: 5px;
   margin-top: 10px;
   border-radius: 5px;
-  background: var(--boutons-bg);
+  background: var(--boutons-projets);
   border: var(--border-color);
   color: var(--soustitre-color);
   font-family: var(--font-textes);

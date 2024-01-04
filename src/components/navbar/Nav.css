@@ -12,6 +12,7 @@ html {
   position: fixed;
   top: 10px;
   right: 10px;
+  font-size: 1.2rem;
 }
 
 .navbar li {

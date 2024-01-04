@@ -7,7 +7,7 @@ function Cv() {
       <div className="mon-cv">
         <div className="img-cv">
           <img
-            src="/cv-dev-img.png"
+            src="/cv-dev.png"
             alt="aperçu de mon cv"
             width={300}
             height={450}
